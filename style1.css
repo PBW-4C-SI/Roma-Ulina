@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+#judul {
+    color: red;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.nama {
+    color: red;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 22%;
+}
+
+.kelas {
+    font-weight: bold;
+    text-align: left;
+    margin-left: 22%;
+    margin-top: 10px;
+}
+
+.mata-kuliah {
+    text-align: left;
+    margin-left: 22%;
+    padding-left: 0;
+}
+
+.mata-kuliah li {
+    list-style-type: upper-roman;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.mata-kuliah li.highlight {
+    color: blue;
+}
+
+.quote {
+    font-style: italic;
+    text-align: left;
+    margin-left: 22%;
+    margin-top: 20px;
+}
+
+/* Elemen Selektor */
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: left;
+    margin-left: 22%;
+}
+
